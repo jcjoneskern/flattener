@@ -5,7 +5,12 @@ function flatten(arr) {
   let flatArray = [];
 
   inputArray.forEach(function(value) {
-    flatArray.push(value);
+    if (isNaN(value)) {
+      flatArray.push(value);
+    } else {
+      value = parseInt(value);
+      flatArray.push(value);
+    }
   });
 
   return flatArray;

@@ -1,4 +1,4 @@
- var flatten = require("../flattener.js");
+ var flatten = require("../flattener");
 
 describe("flattener", function() {
   it("removes brackets from [[1,2,3],4]", function() {
