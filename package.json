@@ -1,0 +1,14 @@
+{
+  "name": "flattener",
+  "version": "1.0.0",
+  "description": "removes brackets from within an array",
+  "main": "flattener.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^2.5.3"
+  }
+}
