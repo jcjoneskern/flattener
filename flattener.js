@@ -1,8 +1,14 @@
 function flatten(arr) {
-  var array = arr.toString();
-  array = array.split(",");
+  let inputArray = arr.toString();
+  inputArray = inputArray.split(',');
 
-  return array;
+  let flatArray = [];
+
+  inputArray.forEach(function(value) {
+    flatArray.push(value);
+  });
+
+  return flatArray;
 }
 
 
