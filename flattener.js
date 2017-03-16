@@ -1,5 +1,8 @@
 function flatten(arr) {
-  return "test";
+  var array = arr.toString();
+  array = array.split(",");
+
+  return array;
 }
 
 
